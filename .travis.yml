@@ -2,4 +2,5 @@ language: node_js
 node_js:
   - "0.10"
 before_script:
-  - EDITOR="true" shuo edit
+  - mkdir ~/.shout
+  - cp defaults/config.js ~/.shout
