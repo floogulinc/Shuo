@@ -1,15 +1,15 @@
 {
-  "name": "shout",
+  "name": "shuo",
   "description": "The self-hosted Web IRC client",
   "version": "0.51.1",
   "author": "Mattias Erming",
   "preferGlobal": true,
   "bin": {
-    "shout": "index.js"
+    "shuo": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/erming/shout.git"
+    "url": "https://github.com/PonyChat/Shuo.git"
   },
   "scripts": {
     "start": "node index",

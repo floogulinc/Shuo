@@ -1,11 +1,11 @@
-# Shout [![](https://badge.fury.io/js/shout.png)](https://www.npmjs.org/package/shout)
+# Shuo [![](https://badge.fury.io/js/shout.png)](https://www.npmjs.org/package/shout)
 
-### [Try the Demo](http://demo.shout-irc.com/)
+__What is it?__
+Shuo is a web IRC client that you host on your own server. This is PonyChat's 
+fork of [Shout](https://github.com/erming/shout), forked due to Shout appearing 
+to be stagnant.
 
-__What is it?__  
-Shout is a web IRC client that you host on your own server.
-
-__What features does it have?__  
+__What features does it have?__
 - Multiple user support
 - Stays connected even when you close the browser
 - Connect from multiple devices at once
@@ -38,7 +38,8 @@ grunt
 ./index.js --port 8080
 ```
 
-And if you don't have [grunt](http://gruntjs.com/getting-started) installed already, just run `npm install -g grunt-cli`.
+And if you don't have [grunt](http://gruntjs.com/getting-started) installed 
+already, just run `npm install -g grunt-cli`.
 
 ## License
 
