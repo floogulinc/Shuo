@@ -56,7 +56,7 @@ module.exports = {
 	//
 	// Prefetch URLs
 	//
-	// If enabled, Shout will try to load thumbnails and site descriptions from
+	// If enabled, Shuo will try to load thumbnails and site descriptions from
 	// URLs posted in channels.
 	//
 	// @type     boolean
@@ -67,7 +67,7 @@ module.exports = {
 	//
 	// Display network
 	//
-	// If set to false Shout will not expose network settings in login
+	// If set to false Shuo will not expose network settings in login
 	// form, limiting client to connect to the configured network.
 	//
 	// @type     boolean
@@ -115,15 +115,15 @@ module.exports = {
 		// @type     string
 		// @default  "Freenode"
 		//
-		name: "Freenode",
+		name: "PonyChat",
 
 		//
 		// Host
 		//
 		// @type     string
-		// @default  "irc.freenode.org"
+		// @default  "irc.ponychat.net"
 		//
-		host: "irc.freenode.org",
+		host: "irc.ponychat.net",
 
 		//
 		// Port
@@ -153,33 +153,33 @@ module.exports = {
 		// Nick
 		//
 		// @type     string
-		// @default  "shout-user"
+		// @default  "shuo-user"
 		//
-		nick: "shout-user",
+		nick: "shuo-user",
 
 		//
 		// Username
 		//
 		// @type     string
-		// @default  "shout-user"
+		// @default  "shuo-user"
 		//
-		username: "shout-user",
+		username: "shuo-user",
 
 		//
 		// Real Name
 		//
 		// @type     string
-		// @default  "Shout User"
+		// @default  "Shuo User"
 		//
-		realname: "Shout User",
+		realname: "Shuo User",
 
 		//
 		// Channels
 		//
 		// @type     string
-		// @default  "#foo, #shout-irc"
+		// @default  "#foo, #shuo-irc"
 		//
-		join: "#foo, #shout-irc"
+		join: "#foo, #shuo-irc"
 	},
 
 	//
@@ -191,7 +191,7 @@ module.exports = {
 	transports: ["polling", "websocket"],
 
 	//
-	// Run Shout with HTTPS support.
+	// Run Shuo with HTTPS support.
 	//
 	// @type     object
 	// @default  {}
@@ -225,7 +225,7 @@ module.exports = {
 	},
 
 	//
-	// Run Shout with identd support.
+	// Run Shuo with identd support.
 	//
 	// @type     object
 	// @default  {}
