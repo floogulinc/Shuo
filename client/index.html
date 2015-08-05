@@ -225,12 +225,12 @@
 								<label class="opt">
 									<select id="themeselect" name="themeselect">
 									<% themes.forEach(function(theme) { %>
-									  <option value="<%= theme.path %>" 
-									  <% if (theme.default) { %>
-									  selected
-									  <% } %>
-									  ><%= theme.name %></option> 
-									  <% }) %>
+										<option value="<%= theme.path %>" 
+										<% if (theme.default) { %>
+										selected
+										<% } %>
+										><%= theme.name %></option> 
+									<% }) %>
 									</select>
 									&nbsp;Theme
 								</label>
