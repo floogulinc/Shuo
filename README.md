@@ -1,4 +1,4 @@
-# Shuo [![](https://badge.fury.io/js/shout.png)](https://www.npmjs.org/package/shout)
+# Shuo [![](https://badge.fury.io/js/shuo.png)](https://www.npmjs.org/package/shuo)
 
 __What is it?__
 Shuo is a web IRC client that you host on your own server. This is PonyChat's 
@@ -15,7 +15,7 @@ __What features does it have?__
 ## Install
 
 ```
-sudo npm install -g shout
+sudo npm install -g shuo
 ```
 
 ## Usage
@@ -23,10 +23,10 @@ sudo npm install -g shout
 When the install is complete, go ahead and run this in your terminal:
 
 ```
-shout --help
+shuo --help
 ```
 
-For more information, read the [documentation](http://shout-irc.com/docs/).
+For more information, read the [documentation](http://shuo-irc.com/docs/).
 
 ## Development setup
 

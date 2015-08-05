@@ -1,8 +1,8 @@
 {
   "name": "shuo",
   "description": "The self-hosted Web IRC client",
-  "version": "0.51.1",
-  "author": "Mattias Erming",
+  "version": "0.51.2",
+  "author": "PonyChat Development Team",
   "preferGlobal": true,
   "bin": {
     "shuo": "index.js"
