@@ -34,10 +34,40 @@ module.exports = {
 	//
 	bind: undefined,
 
+	//
+	// Themes
+	//
+	// @type     array
+	//
 	themes: [
+		//
+		// A theme
+		//
+		// @type     object
+		//
 		{
+			//
+			// Name
+			//
+			// @type     string
+			// @default  "Default"
+			//
       		"name": "Default",
+      		
+      		//
+			// Path to the theme CSS
+			//
+			// @type     string
+			// @default  ""
+			//
       		"path": "",
+
+      		//
+			// Set the theme as default
+			//
+			// @type     boolean
+			// @default  false
+			//
       		"default": true
       	},
       	{
