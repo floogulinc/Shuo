@@ -34,18 +34,10 @@ module.exports = {
 	//
 	bind: undefined,
 
-	//
-	// Set the default theme.
-	//
-	// @type     string
-	// @default  "themes/example.css"
-	//
-	defaulttheme: "themes/example.css",
-
 	themes: [
 		{
       		"name": "Default",
-      		"path": "themes/example.css",
+      		"path": "",
       		"default": true
       	},
       	{
