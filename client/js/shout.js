@@ -61,7 +61,9 @@ $(function() {
 	});
 
 	function render(name, data) {
-		return Handlebars.templates[name](data);
+		data = pluginHandle('onprerender', [name, data])[1];
+		var html = Handlebars.templates[name](data);
+		return pluginHandle('onpostrender', [name, html])[1];
 	}
 
 	Handlebars.registerHelper(
@@ -196,6 +198,8 @@ $(function() {
 
 		var chan = chat.find(target);
 		var from = data.msg.from;
+
+		data.msg = pluginHandle('onmessage', data.msg);
 
 		chan.find(".messages")
 			.append(render("msg", {messages: [data.msg]}))
@@ -416,6 +420,9 @@ $(function() {
 			clear();
 			return;
 		}
+		text = pluginHandle('oninput', text);
+		if (!text) return;
+
 		socket.emit("input", {
 			target: chat.data("id"),
 			text: text
@@ -750,6 +757,25 @@ $(function() {
 			}
 		});
 	}, 1000 * 10);
+
+	$.each(shoutPlugins, function(i, plugin) {
+		if ($.isFunction(plugin)) { plugin(socket); }
+	});
+
+	function pluginHandle(action, data) {
+		var val = data;
+
+		$.each(shoutPlugins, function(i, plugin) {
+			if ($.isFunction(plugin[action])) {
+				var newVal = plugin[action].apply(plugin, (val && !val.length) ? [val] : val);
+				if (newVal !== null && newVal !== undefined) {
+					val = newVal;
+				}
+			}
+		});
+
+		return val;
+	}
 
 	function clear() {
 		chat.find(".active .messages").empty();
