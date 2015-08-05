@@ -147,7 +147,7 @@ function auth(data) {
 				if (data.token == client.token) {
 					success = true;
 				}
-			} else if (client.config.user == data.user) {
+			} else if (client.config.user.toLowerCase() == data.user.toLowerCase()) {
 				if (bcrypt.compareSync(data.password || "", client.config.password)) {
 					success = true;
 				}
