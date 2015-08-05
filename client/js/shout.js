@@ -362,6 +362,10 @@ $(function() {
 		}
 	}
 
+	$('#themeselect').on('change', function() {
+		$('#theme').attr('href',$(this).val());
+	});
+
 	settings.on("change", "input", function() {
 		var self = $(this);
 		var name = self.attr("name");
