@@ -40,7 +40,30 @@ module.exports = {
 	// @type     string
 	// @default  "themes/example.css"
 	//
-	theme: "themes/example.css",
+	defaulttheme: "themes/example.css",
+
+	themes: [
+		{
+      		"name": "Default",
+      		"path": "themes/example.css",
+      		"default": true
+      	},
+      	{
+      		"name": "Morning",
+      		"path": "themes/morning.css",
+      		"default": false
+      	},
+      	{
+      		"name": "Zenburn",
+      		"path": "themes/zenburn.css",
+      		"default": false
+      	},
+      	{
+      		"name": "Crypto",
+      		"path": "themes/crypto.css",
+      		"default": false
+      	}
+	],
 
 	//
 	// Autoload users
