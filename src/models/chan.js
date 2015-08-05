@@ -29,7 +29,7 @@ Chan.prototype.sortUsers = function() {
 	);
 	var modes = [
 		"~",
-		"&",
+		"!",
 		"@",
 		"%",
 		"+",
