@@ -1,4 +1,4 @@
-# Shuo [![](https://badge.fury.io/js/shuo.png)](https://www.npmjs.org/package/shuo)
+# Shuo [![](https://badge.fury.io/js/shuo.png)](https://www.npmjs.org/package/shuo) [![Build Status](https://travis-ci.org/PonyChat/Shuo.svg?branch=master)](https://travis-ci.org/PonyChat/Shuo)
 
 __What is it?__
 Shuo is a web IRC client that you host on your own server. This is PonyChat's 
