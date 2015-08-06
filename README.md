@@ -1,5 +1,9 @@
 # Shuo [![](https://badge.fury.io/js/shuo.png)](https://www.npmjs.org/package/shuo) [![Build Status](https://travis-ci.org/PonyChat/Shuo.svg?branch=master)](https://travis-ci.org/PonyChat/Shuo)
 
+![](https://raw.githubusercontent.com/PonyChat/Shuo/master/logo.svg)
+
+(Chinese for "to speak")
+
 __What is it?__
 Shuo is a web IRC client that you host on your own server. This is PonyChat's 
 fork of [Shout](https://github.com/erming/shout), forked due to Shout appearing 
