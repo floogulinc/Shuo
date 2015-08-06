@@ -2,7 +2,7 @@ var path = require("path");
 var fs = require('fs');
 
 module.exports = {
-	HOME: (process.env.HOME || process.env.USERPROFILE) + "/.shout",
+	HOME: (process.env.HOME || process.env.USERPROFILE) + "/.shuo",
 	getConfig: getConfig,
 	getLines: getLines,
 	countLines: countLines
