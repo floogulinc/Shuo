@@ -30,7 +30,7 @@ When the install is complete, go ahead and run this in your terminal:
 shuo --help
 ```
 
-For more information, read the [documentation](http://shuo-irc.com/docs/).
+For more information, read the [documentation](https://github.com/PonyChat/Shuo/wiki).
 
 ## Development setup
 
