@@ -370,7 +370,7 @@ Client.prototype.save = function(force) {
 		fs.writeFile(
 			path,
 			JSON.stringify(json, null, "  "),
-			{mode: "0777"},
+			{mode: "0600"},
 			function(err) {
 				if (err) {
 					console.log(err);
