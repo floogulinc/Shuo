@@ -1,6 +1,6 @@
 # Shuo [![](https://badge.fury.io/js/shuo.png)](https://www.npmjs.org/package/shuo) [![Build Status](https://travis-ci.org/PonyChat/Shuo.svg?branch=master)](https://travis-ci.org/PonyChat/Shuo)
 
-![](https://raw.githubusercontent.com/PonyChat/Shuo/master/logo.svg)
+![](https://i.imgur.com/23XLmfQ.png)
 
 (Chinese for "to speak")
 
