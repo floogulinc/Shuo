@@ -1,7 +1,7 @@
 {
   "name": "shuo",
   "description": "The self-hosted Web IRC client",
-  "version": "0.52.0",
+  "version": "0.52.1",
   "author": "PonyChat Development Team",
   "preferGlobal": true,
   "bin": {
