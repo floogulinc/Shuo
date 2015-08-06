@@ -485,7 +485,10 @@ $(function() {
 			self.data("id")
 		);
 
-		sidebar.find(".active").removeClass("active");
+		active = sidebar.find(".active");
+		$(active.find(".unread-marker")).remove();
+		active.removeClass("active");
+
 		self.addClass("active")
 			.find(".badge")
 			.removeClass("highlight")
@@ -507,7 +510,8 @@ $(function() {
 			.find(".chat")
 			.sticky()
 			.end();
-		chan.find(".unread-marker").slice(0, -1).remove()
+
+		$(chan.find(".unread-marker").splice(-1,1)).remove();
 
 		var title = "Shuo";
 		if (chan.data("title")) {
