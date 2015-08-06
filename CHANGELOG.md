@@ -1,3 +1,21 @@
+0.52.0 / 2015-08-05
+===================
+
+* Add theme selector [#18](https://github.com/PonyChat/Shuo/pull/18)
+* Load backlog from the filesystem [2c00acc](https://github.com/PonyChat/Shuo/commit/2c00acc71dbc357177ae8235b64c4d785f84ddc0)
+* Unread messages marker [92460a3](https://github.com/PonyChat/Shuo/commit/92460a354a0607994b8fbf5084821f69c6b97c3f)
+
+Breaking Changes
+----------------
+
+This release will break configurations unless you add the `themes` object
+from the example configuration into your configuration.
+
+0.51.2 / 2015-08-04
+===================
+
+* Mark this as a PonyChat fork
+
 0.51.1 / 2015-04-29
 ===================
 

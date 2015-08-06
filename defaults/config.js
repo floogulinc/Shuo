@@ -52,39 +52,37 @@ module.exports = {
 			// @type     string
 			// @default  "Default"
 			//
-      		"name": "Default",
-      		
-      		//
+			"name": "Default",
+			//
 			// Path to the theme CSS
 			//
 			// @type     string
 			// @default  ""
 			//
-      		"path": "",
-
-      		//
+			"path": "",
+			//
 			// Set the theme as default
 			//
 			// @type     boolean
 			// @default  false
 			//
-      		"default": true
-      	},
-      	{
-      		"name": "Morning",
-      		"path": "themes/morning.css",
-      		"default": false
-      	},
-      	{
-      		"name": "Zenburn",
-      		"path": "themes/zenburn.css",
-      		"default": false
-      	},
-      	{
-      		"name": "Crypto",
-      		"path": "themes/crypto.css",
-      		"default": false
-      	}
+			"default": true
+		},
+		{
+			"name": "Morning",
+			"path": "themes/morning.css",
+			"default": false
+		},
+		{
+			"name": "Zenburn",
+			"path": "themes/zenburn.css",
+			"default": false
+		},
+		{
+			"name": "Crypto",
+			"path": "themes/crypto.css",
+			"default": false
+		}
 	],
 
 	//
