@@ -1,5 +1,9 @@
 # Shuo [![](https://badge.fury.io/js/shuo.png)](https://www.npmjs.org/package/shuo) [![Build Status](https://travis-ci.org/PonyChat/Shuo.svg?branch=master)](https://travis-ci.org/PonyChat/Shuo)
 
+![](https://i.imgur.com/23XLmfQ.png)
+
+(Chinese for "to speak")
+
 __What is it?__
 Shuo is a web IRC client that you host on your own server. This is PonyChat's 
 fork of [Shout](https://github.com/erming/shout), forked due to Shout appearing 
@@ -26,7 +30,7 @@ When the install is complete, go ahead and run this in your terminal:
 shuo --help
 ```
 
-For more information, read the [documentation](http://shuo-irc.com/docs/).
+For more information, read the [documentation](https://github.com/PonyChat/Shuo/wiki).
 
 ## Development setup
 
