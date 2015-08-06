@@ -1,5 +1,5 @@
 module.exports = function(network, chan, cmd, args) {
-	if (cmd != "whois" && cmd != "query") {
+	if (cmd != "whois" && cmd != "query" && cmd != "w") {
 		return;
 	}
 	if (args.length !== 0) {

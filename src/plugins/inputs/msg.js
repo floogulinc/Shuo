@@ -1,7 +1,7 @@
 var _ = require("lodash");
 
 module.exports = function(network, chan, cmd, args) {
-	if (cmd != "say" && cmd != "msg") {
+	if (cmd != "say" && cmd != "msg" && cmd != "m") {
 		return;
 	}
 	if (args.length === 0 || args[0] === "") {
@@ -10,7 +10,7 @@ module.exports = function(network, chan, cmd, args) {
 	var client = this;
 	var irc = network.irc;
 	var target = "";
-	if (cmd == "msg") {
+	if (cmd == "msg" || cmd == "m") {
 		target = args.shift();
 		if (args.length === 0) {
 			return;
