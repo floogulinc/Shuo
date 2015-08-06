@@ -1,3 +1,15 @@
+0.52.1 / 2015-08-05
+===================
+
+* Move config root to `~/.shuo` [61f36ac](https://github.com/PonyChat/Shuo/commit/61f36acf1876d5f6363a2ffe2fa1fa928d26b4b1)
+
+Breaking Changes
+----------------
+
+The configuration root has been changed. Users, logs and your configuration will not be automatically migrated.
+
+To mitigate this change please move ~/.shout to ~/.shuo or use `--home`.
+
 0.52.0 / 2015-08-05
 ===================
 
