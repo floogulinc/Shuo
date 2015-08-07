@@ -126,8 +126,24 @@ Client.prototype.connect = function(args) {
 		name: args.name || "",
 		host: args.host || "irc.freenode.org",
 		port: args.port || (args.tls ? 6697 : 6667),
-		rejectUnauthorized: false
+		rejectUnauthorized: !config.displayNetwork
 	};
+
+	/*
+	 * If the server is supposed to reject unauthorized networks,
+	 * gracefully disallow them from being able to connect to any
+	 * other networks.
+	 */
+	if (server.rejectUnauthorized && (args.host != config.defaults.host)) {
+		client.emit("msg", new Msg({
+			type: Msg.Type.ERROR,
+			text: "Permissions error: you are not allowed to connect to that server"
+		}));
+
+		console.log("Permissions error for " + this.name + " trying to connect to " + args.host);
+
+		return;
+	}
 
 	if (config.bind) {
 		server.localAddress = config.bind;
@@ -370,7 +386,7 @@ Client.prototype.save = function(force) {
 		fs.writeFile(
 			path,
 			JSON.stringify(json, null, "  "),
-			{mode: "0777"},
+			{mode: "0600"},
 			function(err) {
 				if (err) {
 					console.log(err);
