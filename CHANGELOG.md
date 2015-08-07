@@ -1,3 +1,13 @@
+0.53.0 / 2015-08-06
+===================
+
+* Make user json files mode `600` [#26](https://github.com/PonyChat/Shuo/pull/26)
+* Disallow free connections on a restricted bouncer [#27](https://github.com/PonyChat/Shuo/pull/27)
+* Add aliases for frequently used commands [#30](https://github.com/PonyChat/Shuo/pull/30)
+* Fixed the link plugin text [#31](https://github.com/PonyChat/Shuo/pull/31)
+* Add a new logo/favicon [#35](https://github.com/PonyChat/Shuo/pull/35)
+* Only allow one unread marker [5915e96](https://github.com/PonyChat/Shuo/commit/5915e960d6062914565b44239406bebc1089647d)
+
 0.52.1 / 2015-08-05
 ===================
 

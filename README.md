@@ -1,6 +1,6 @@
 # Shuo [![](https://badge.fury.io/js/shuo.png)](https://www.npmjs.org/package/shuo) [![Build Status](https://travis-ci.org/PonyChat/Shuo.svg?branch=master)](https://travis-ci.org/PonyChat/Shuo)
 
-![](https://i.imgur.com/23XLmfQ.png)
+![](https://i.imgur.com/Cy3zOow.png)
 
 (Chinese for "to speak")
 
@@ -14,6 +14,8 @@ __What features does it have?__
 - Stays connected even when you close the browser
 - Connect from multiple devices at once
 - Responsive layout — works well on your smartphone
+- Theme support
+- Unread message marker
 - _.. and more!_
 
 ## Install
