@@ -220,9 +220,9 @@ module.exports = {
 		// Channels
 		//
 		// @type     string
-		// @default  "#foo, #shuo-irc"
+		// @default  "#foo, #shuo"
 		//
-		join: "#foo, #shuo-irc"
+		join: "#foo, #shuo"
 	},
 
 	//
