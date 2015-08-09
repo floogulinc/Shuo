@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/PonyChat/Shuo.git"
   },
+  "bugs": {
+  	"url": "https://github.com/PonyChat/Shuo/issues"
+  },
   "scripts": {
     "start": "node index",
     "test": "mocha test/**/*.js"
