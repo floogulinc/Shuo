@@ -20,7 +20,7 @@ module.exports = function(network, chan, cmd, args) {
 		target = chan.name;
 	} else if (args.length === 1) {
 		return;
-	} else if((args[0].slice(0, 1) == '+') || (args[0].slice(0, str.length) == '-')) {
+	} else if((args[0].slice(0, 1) == '+') || (args[0].slice(0, 1) == '-')) {
 		target = chan.name;
 		flags = args[0];
 		params = args.slice(1).join(" ");
