@@ -1,4 +1,11 @@
-# Shuo [![](https://badge.fury.io/js/shuo.png)](https://www.npmjs.org/package/shuo) [![Build Status](https://travis-ci.org/PonyChat/Shuo.svg?branch=master)](https://travis-ci.org/PonyChat/Shuo)
+[![npm version](https://img.shields.io/npm/v/shuo.svg)](https://www.npmjs.org/package/shuo)
+[![License](https://img.shields.io/npm/l/shuo.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/PonyChat/Shuo.svg?branch=master)](https://travis-ci.org/PonyChat/Shuo)
+[![Dependency Status](https://david-dm.org/PonyChat/Shuo.svg)](https://david-dm.org/PonyChat/Shuo)
+[![devDependency Status](https://david-dm.org/PonyChat/Shuo/dev-status.svg)](https://david-dm.org/PonyChat/Shuo#info=devDependencies)
+![Downloads](https://img.shields.io/npm/dt/shuo.svg)
+
+# Shuo
 
 ![](https://i.imgur.com/Cy3zOow.png)
 
