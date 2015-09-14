@@ -1,7 +1,7 @@
 {
   "name": "shuo",
   "description": "The self-hosted Web IRC client",
-  "version": "0.53.0",
+  "version": "0.54.0",
   "author": "PonyChat Development Team",
   "preferGlobal": true,
   "bin": {
@@ -12,7 +12,7 @@
     "url": "https://github.com/PonyChat/Shuo.git"
   },
   "bugs": {
-  	"url": "https://github.com/PonyChat/Shuo/issues"
+    "url": "https://github.com/PonyChat/Shuo/issues"
   },
   "scripts": {
     "start": "node index",

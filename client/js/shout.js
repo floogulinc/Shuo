@@ -24,6 +24,7 @@ $(function() {
 		"/server",
 		"/slap",
 		"/topic",
+		"/umode",
 		"/voice",
 		"/whois"
 	];
