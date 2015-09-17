@@ -1,3 +1,8 @@
+0.54.1 / 2015-09-17
+===================
+
+* Fix XSS vulnerability [#58](https://github.com/PonyChat/Shuo/pull/58)
+
 0.54.0 / 2015-09-09
 ===================
 
@@ -55,24 +60,24 @@ from the example configuration into your configuration.
  * Link preview now ignores links from localhost
  * Added 'displayNetwork' setting
 
-0.49.3 / 2015-01-04 
+0.49.3 / 2015-01-04
 ===================
 
  * Fully expand chat when userlist is hidden
  * Remove vertical whitespace in chat windows
  * Support @mention
 
-0.49.2 / 2015-01-04 
+0.49.2 / 2015-01-04
 ===================
 
  * Fix crash on broken links
 
-0.49.1 / 2015-01-04 
+0.49.1 / 2015-01-04
 ===================
 
  * Fix undefined content-type (link plugin)
 
-0.49.0 / 2014-12-23 
+0.49.0 / 2014-12-23
 ===================
 
  * Replaced superagent with request
@@ -148,7 +153,7 @@ from the example configuration into your configuration.
 ===================
 
   * Disable login button on authentication
-  * Fix 'shout edit' command 
+  * Fix 'shout edit' command
 
 0.43.0 / 2014-10-08
 ===================
