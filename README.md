@@ -1,5 +1,4 @@
 [![npm version](https://img.shields.io/npm/v/shuo.svg)](https://www.npmjs.org/package/shuo)
-[![License](https://img.shields.io/npm/l/shuo.svg)](LICENSE)
 [![Build Status](https://travis-ci.org/Shuo-IRC/Shuo.svg?branch=master)](https://travis-ci.org/Shuo-IRC/Shuo)
 [![Dependency Status](https://david-dm.org/Shuo-IRC/Shuo.svg)](https://david-dm.org/Shuo-IRC/Shuo)
 [![devDependency Status](https://david-dm.org/Shuo-IRC/Shuo/dev-status.svg)](https://david-dm.org/Shuo-IRC/Shuo#info=devDependencies)
