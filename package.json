@@ -2,7 +2,7 @@
   "name": "shuo",
   "description": "The self-hosted Web IRC client",
   "version": "0.54.2",
-  "author": "Shuo-IRC Development Team",
+  "author": "Shuo IRC Development Team",
   "preferGlobal": true,
   "bin": {
     "shuo": "index.js"

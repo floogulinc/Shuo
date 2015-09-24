@@ -11,4 +11,4 @@ deploy:
     secure: H8W/70gND0wb5nMhXoNXZ4o920/4S+1Yia6zYrKxZ3fi5aq9+/KKeCAKe+IbNZS/0IWbPzO+d5rvau04+kPeX2aMODHkyQ5o+kPE4jgM8UQRiMQE7c4g+uhK+/R2JO9Qd5NY5/whvDo1YETD38zxwtFjbZtpQ4mHWPH03ISi0wgsWV8T4+1lKJenvZnfqAMBcVsTerRcy6OCzNEjAwf4fT/C3Y+6V2LTiMSbdECzqca3rJdC/37g+ftsoe/ZU1nfe7+eaeCmwYddj/rMYUI6xEnDGDafuboibls2r2PRv4cRHh+ni/Oh9Kwl3Vzr0vsm2tIiAMP+gsnFnoj2RGvAjtwDcocoi+Ikr5UhBwP8qwVIPLfkAQ3ADHKOPxE+3U+dm3AemFUffZo/TZMu0BEme1ufRRIz8WxUvUFd9lKHEvBRfnrQ5OplvWrwIrTpNIQf1TsmcgwMJPQtwSdJKIaFYOH2i9PLj6WJ5xmdG5YqR2alE4ifQrbyn3m/Xpap8n7mYKXY2c4hm2uvpM8//LXvMQnZmN4UVVoQK2T4o8JY+dMOP1HxyT3txR+bFjOFv7+LK3Y90kd5tMcoZoqLM3U3pLZAstA+rKkMbJ+3RlpUQ7u/7fJtzA+r30ys743vCDKgEGM/iAf48KcXXKpExxt2ef855LLe7wG9LCrZA3EQZF0=
   on:
     tags: true
-    repo: PonyChat/Shuo
+    repo: Shuo-IRC/Shuo
