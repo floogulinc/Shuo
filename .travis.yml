@@ -5,8 +5,8 @@ node_js:
   - "4.0"
   - "4.1"
 before_script:
-- mkdir ~/.shuo
-- cp defaults/config.js ~/.shuo
+  - mkdir ~/.shuo
+  - cp defaults/config.js ~/.shuo
 deploy:
   provider: npm
   email: floogulinc@gmail.com
