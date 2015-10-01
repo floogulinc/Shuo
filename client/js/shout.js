@@ -1,6 +1,7 @@
 $(function() {
 	var socket = io();
 	var commands = [
+		"/away",
 		"/close",
 		"/connect",
 		"/deop",
