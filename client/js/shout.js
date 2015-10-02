@@ -355,6 +355,7 @@ $(function() {
 		part: true,
 		thumbnails: true,
 		quit: true,
+		time: true,
 	}, $.cookie("settings"));
 
 	for (var i in options) {
@@ -391,6 +392,7 @@ $(function() {
 			"nick",
 			"part",
 			"quit",
+			"time",
 		].indexOf(name) !== -1) {
 			chat.toggleClass("hide-" + name, !self.prop("checked"));
 		}
