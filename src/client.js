@@ -35,6 +35,7 @@ var events = [
 var inputs = [
 	"action",
 	"connect",
+	"help",
 	"invite",
 	"join",
 	"kick",
@@ -275,7 +276,7 @@ Client.prototype.more = function(data) {
             chan: chan.id,
             messages: messages
         });
-    });	
+    });
 };
 
 Client.prototype.open = function(data) {

@@ -6,6 +6,7 @@ $(function() {
 		"/deop",
 		"/devoice",
 		"/disconnect",
+		"/help",
 		"/invite",
 		"/join",
 		"/kick",
