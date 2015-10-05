@@ -214,6 +214,8 @@ $(function() {
 				data.msg
 			]);
 
+		$(".msg:not(.smiled)").smilify().addClass("smiled");
+
 		if (!chan.hasClass("channel")) {
 			return;
 		}
