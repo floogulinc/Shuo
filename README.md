@@ -30,6 +30,19 @@ __What features does it have?__
 sudo npm install -g shuo
 ```
 
+### Quick setup
+
+Needs [docker-compose](https://docs.docker.com/compose/).
+
+```console
+$ docker-compose up
+ircd_1 |   notice: now running in foreground mode from /home/ircd/run as pid 16 ...
+shuo_1 | Shuo is now running on http://0.0.0.0:9000/
+shuo_1 | Press ctrl-c to stop
+```
+
+This will spawn an ephemeral instance of [Elemental-IRCd](http://elemental-ircd.com) and Shuo.
+
 ## Usage
 
 When the install is complete, go ahead and run this in your terminal:
