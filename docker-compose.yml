@@ -1,0 +1,11 @@
+shuo:
+  build: .
+  ports:
+    - "9000:9000"
+  links:
+    - ircd
+  environment:
+    - DONT_USE_SSL=true
+
+ircd:
+  image: xena/elemental-ircd:6.6.2

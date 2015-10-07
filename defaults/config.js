@@ -166,15 +166,15 @@ module.exports = {
 		// @type     string
 		// @default  "irc.ponychat.net"
 		//
-		host: "irc.ponychat.net",
+		host: process.env["IRCD_PORT_6667_TCP_ADDR"] || "irc.ponychat.net",
 
 		//
 		// Port
 		//
 		// @type     int
-		// @default  6697
+		// @default  6697 or 6667 if envvar DONT_USE_SSL is set.
 		//
-		port: 6697,
+		port: process.env["DONT_USE_SSL"] ? 6667 : 6697,
 
 		//
 		// Password
@@ -190,7 +190,7 @@ module.exports = {
 		// @type     boolean
 		// @default  true
 		//
-		tls: true,
+		tls: process.env["DONT_USE_SSL"] ? false : true,
 
 		//
 		// Nick
@@ -198,7 +198,7 @@ module.exports = {
 		// @type     string
 		// @default  "shuo-user"
 		//
-		nick: "shuo-user",
+		nick: process.env["DEFAULT_NICK"] || "shuo-user",
 
 		//
 		// Username
@@ -206,7 +206,7 @@ module.exports = {
 		// @type     string
 		// @default  "shuo-user"
 		//
-		username: "shuo-user",
+		username: process.env["DEFAULT_IDENT"] || "shuo-user",
 
 		//
 		// Real Name
@@ -214,7 +214,7 @@ module.exports = {
 		// @type     string
 		// @default  "Shuo User"
 		//
-		realname: "Shuo User",
+		realname: process.env["DEFAULT_GECOS"] || "Shuo User",
 
 		//
 		// Channels
@@ -222,7 +222,7 @@ module.exports = {
 		// @type     string
 		// @default  "#foo, #shuo"
 		//
-		join: "#foo, #shuo"
+		join: process.env["DEFAULT_CHANNELS"] || "#foo, #shuo"
 	},
 
 	//
