@@ -18,6 +18,7 @@
     "start": "node index",
     "test": "mocha test/**/*.js"
   },
+  "main": "index.js",
   "keywords": [
     "browser",
     "web",
